@@ -4,7 +4,9 @@
   "description": "aprendendo programação",
   "main": "index.js",
   "scripts": {
-  "dev":"next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --wwrit ."
   },
   "author": "",
   "license": "MIT",
